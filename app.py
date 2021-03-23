@@ -5,9 +5,9 @@ import numpy as np
 
 app = Flask(__name__, template_folder='templates')
 
-@app.route("/Diabetes")
+@app.route("/diabetes")
 
-@app.route("/Diabetes")
+@app.route("/diabetes")
 def cancer():
     return render_template("diabetes.html")
 
